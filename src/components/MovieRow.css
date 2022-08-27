@@ -1,0 +1,31 @@
+.cardRow{
+    margin-bottom: 30px;
+}
+
+.cardRow h2{
+    margin: 0px 0px 0px 30px;
+}
+
+.cardRow-listarea{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.cardRow-list{
+    width: 4000px;
+}
+
+.cardRow-item{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.cardRow-item img{
+    width: 100%;
+    transform: scale(0.9);
+}
+.cardRow-item img:hover{
+    transform: scale(1);
+    transition: all ease 0.2s;
+}
